@@ -25,3 +25,7 @@ yarn-error.log*
 
 # Movie App
 **/AppId/AppId.js
+
+# firebase
+.firebaserc
+firebase.json
