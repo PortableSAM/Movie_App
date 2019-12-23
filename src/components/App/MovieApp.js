@@ -1,7 +1,7 @@
 import React from "react";
 import { AppId, TargetDt, URL } from "../lib/index";
 import Movies from "./Movies";
-
+import "./CSS/MovieApp.css";
 export default class MovieApp extends React.Component {
   state = {
     type: "",
@@ -20,7 +20,7 @@ export default class MovieApp extends React.Component {
           //console.log(json);
           this.setState({
             type: json.boxOfficeResult.boxofficeType,
-            range: json.boxOfficeResult.showRang,
+            range: json.boxOfficeResult.showRange,
             list: json.boxOfficeResult.dailyBoxOfficeList,
             isLoading: false
           });
@@ -51,7 +51,7 @@ export default class MovieApp extends React.Component {
             <div className="type">
               <h3>{type}</h3>
             </div>
-            <h5>Date: {range}</h5>
+            <h5>기간 : {range}</h5>
             <div className="movies">
               {list.map((list, index) => (
                 <Movies
