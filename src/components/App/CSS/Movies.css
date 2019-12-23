@@ -3,14 +3,14 @@
   background-color: wheat;
   border-radius: 5px;
   width: 40%;
-  height: 100px;
+  height: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
 }
 
 .data {
-  margin: 10px;
+  margin: auto;
   padding: 5px;
   text-align: left;
   font-family: "Yeon Sung", cursive;

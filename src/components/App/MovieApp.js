@@ -57,6 +57,7 @@ export default class MovieApp extends React.Component {
                 <Movies
                   id={list.id}
                   key={index}
+                  Rank={list.rank}
                   title={list.movieNm}
                   Open={list.openDt}
                 />

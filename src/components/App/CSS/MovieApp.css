@@ -6,3 +6,11 @@
   flex-flow: row wrap;
   justify-content: space-around;
 }
+
+.type h3 {
+  margin: 10px;
+}
+
+h5 {
+  margin: auto;
+}

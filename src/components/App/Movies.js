@@ -1,7 +1,7 @@
 import React from "react";
 import "./CSS/Movies.css";
 
-export default function lilst({ title, Open }) {
+export default function lilst({ title, Open, Rank }) {
   return (
     <div className="movie">
       <div className="data">
@@ -13,6 +13,7 @@ export default function lilst({ title, Open }) {
           rel="noopener noreferrer"
           style={{ textDecoration: "none" }}
         >
+          <h4>순 위 : {Rank}</h4>
           <h4>영화제목 : {title}</h4>
           <h4>개봉일자 : {Open}</h4>
         </a>
