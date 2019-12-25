@@ -14,3 +14,11 @@
 h5 {
   margin: auto;
 }
+
+@media (max-width: 450px) {
+  .movies {
+    flex-flow: column;
+    width: 90%;
+    align-items: center;
+  }
+}
